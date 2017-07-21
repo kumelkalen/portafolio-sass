@@ -1,1 +1,36 @@
-_bases.scss
+@import '_variables.scss';
+#bienvenida{
+	.row{
+		.slider{
+			.slides{
+				li{
+				color:$color_blanco;
+					img{
+						height:$img_slider_size;
+						z-index: -100;
+						position: fixed;
+						left: 0;
+					}
+					h2{
+						font-weight: bolder;
+						margin-top: 200px;
+					}
+					span{
+						font-size:$font_size_menor;
+					}
+				}
+				
+			}
+			.material-icons{
+						position: inherit;
+						top: 50%;
+						z-index: 100;
+						margin: 0 50px;
+						font-size: 50px;
+				}
+			.right-icon{
+				right:0;
+			}
+		}
+	}
+}

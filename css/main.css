@@ -1,1 +1,22 @@
-main.css
+#bienvenida .row .slider .slides li {
+  color: #fff; }
+  #bienvenida .row .slider .slides li img {
+    height: 610px;
+    z-index: -100;
+    position: fixed;
+    left: 0; }
+  #bienvenida .row .slider .slides li h2 {
+    font-weight: bolder;
+    margin-top: 200px; }
+  #bienvenida .row .slider .slides li span {
+    font-size: 18px; }
+#bienvenida .row .slider .material-icons {
+  position: inherit;
+  top: 50%;
+  z-index: 100;
+  margin: 0 50px;
+  font-size: 50px; }
+#bienvenida .row .slider .right-icon {
+  right: 0; }
+
+/*# sourceMappingURL=main.css.map */
