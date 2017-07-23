@@ -7,9 +7,15 @@
     left: 0; }
   #bienvenida .row .slider .slides li h2 {
     font-weight: bolder;
-    margin-top: 200px; }
+    margin-top: 250px;
+    font-size: 70px; }
   #bienvenida .row .slider .slides li span {
     font-size: 18px; }
+  #bienvenida .row .slider .slides li a {
+    padding-top: 10px;
+    margin-top: 50px;
+    height: 50px;
+    background-color: #e91e63; }
 #bienvenida .row .slider .material-icons {
   position: inherit;
   top: 50%;
