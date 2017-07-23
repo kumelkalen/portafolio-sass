@@ -1,4 +1,5 @@
 @import '_variables.scss';
+@import '_mixin.scss';
 #bienvenida{
 	.row{
 		.slider{
@@ -75,6 +76,7 @@ height: 500px;
 				.col{
 					.cuarto-row{
 					margin-bottom: 0;
+					margin-left: 25px;
 						.square{
 							height: 14px;
 							width: 19px;
@@ -85,7 +87,14 @@ height: 500px;
 					}
 					.text-responsive{
 						h5{
-							font-family: 'Roboto Slab', serif;
+							@include titulo();
+							margin-top: 50px;
+						}
+						p{
+							font-weight: 300;
+							font-size: medium;
+							width: 350px;
+							margin-left: 13px;
 						}
 					}
 				}
