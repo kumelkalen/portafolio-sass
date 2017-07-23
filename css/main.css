@@ -7,7 +7,7 @@
     left: 0; }
   #bienvenida .row .slider .slides li h2 {
     font-weight: bolder;
-    margin-top: 250px;
+    margin-top: 200px;
     font-size: 70px; }
   #bienvenida .row .slider .slides li span {
     font-size: 18px; }
@@ -16,13 +16,32 @@
     margin-top: 50px;
     height: 50px;
     background-color: #e91e63; }
+  #bienvenida .row .slider .slides li a:hover {
+    box-shadow: 1px 10px 20px rgba(233, 30, 99, 0.5); }
 #bienvenida .row .slider .material-icons {
   position: inherit;
   top: 50%;
   z-index: 100;
-  margin: 0 50px;
-  font-size: 50px; }
+  margin: 0 80px;
+  font-size: 60px;
+  color: #fff;
+  opacity: 0.5; }
+#bienvenida .row .slider .material-icons:hover {
+  opacity: 1; }
 #bienvenida .row .slider .right-icon {
   right: 0; }
+
+#cont-mayor {
+  height: 500px; }
+  #cont-mayor .row {
+    margin-top: 550px; }
+    #cont-mayor .row #features {
+      position: absolute;
+      width: 95%;
+      right: 2.5%;
+      height: 500px;
+      z-index: 10;
+      border-radius: 5px 5px 0 0;
+      box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2); }
 
 /*# sourceMappingURL=main.css.map */
