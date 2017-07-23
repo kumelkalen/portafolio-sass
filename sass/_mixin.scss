@@ -3,4 +3,18 @@
 	color: #3c4858;
 	font-size: large;
 	font-weight: 600;
+	margin-top: 50px;
+}
+@mixin lorem(){
+	font-weight: 300;
+	font-size: medium;
+	width: 350px;
+	margin-left: 13px;
+}
+@mixin squa(){
+	height: 14px;
+	width: 19px;
+	border-radius: 4px;
+	float: left;
+	margin: 2px;
 }

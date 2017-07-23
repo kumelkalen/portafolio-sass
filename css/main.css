@@ -48,22 +48,48 @@
           font-size: 129%;
           line-height: 150%;
           font-weight: 300; }
-      #cont-mayor .primer-row #features .tercer-row .col .cuarto-row {
+      #cont-mayor .primer-row #features .tercer-row .primer-col .cuarto-row {
         margin-bottom: 0;
         margin-left: 25px; }
-        #cont-mayor .primer-row #features .tercer-row .col .cuarto-row .square {
+        #cont-mayor .primer-row #features .tercer-row .primer-col .cuarto-row .square {
           height: 14px;
           width: 19px;
           border-radius: 4px;
           float: left;
           margin: 2px; }
-      #cont-mayor .primer-row #features .tercer-row .col .text-responsive h5 {
+      #cont-mayor .primer-row #features .tercer-row .primer-col .text-responsive h5 {
         font-family: 'Roboto Slab', serif;
         color: #3c4858;
         font-size: large;
         font-weight: 600;
         margin-top: 50px; }
-      #cont-mayor .primer-row #features .tercer-row .col .text-responsive p {
+      #cont-mayor .primer-row #features .tercer-row .primer-col .text-responsive p {
+        font-weight: 300;
+        font-size: medium;
+        width: 350px;
+        margin-left: 13px; }
+      #cont-mayor .primer-row #features .tercer-row .segundo-col .cont-icon-azul {
+        margin-bottom: 0;
+        margin-left: 25px; }
+        #cont-mayor .primer-row #features .tercer-row .segundo-col .cont-icon-azul .square-blue {
+          height: 14px;
+          width: 19px;
+          border-radius: 4px;
+          float: left;
+          margin: 2px; }
+        #cont-mayor .primer-row #features .tercer-row .segundo-col .cont-icon-azul .rectangle-blue {
+          height: 14px;
+          width: 40px;
+          border-radius: 4px;
+          float: left;
+          margin: 2px; }
+      #cont-mayor .primer-row #features .tercer-row .segundo-col .text-responsive h5 {
+        font-family: 'Roboto Slab', serif;
+        color: #3c4858;
+        font-size: large;
+        font-weight: 600;
+        margin-top: 50px; }
+      #cont-mayor .primer-row #features .tercer-row .segundo-col .text-responsive p {
         font-weight: 300;
         font-size: medium;
         width: 350px;

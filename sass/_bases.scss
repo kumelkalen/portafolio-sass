@@ -73,13 +73,33 @@ height: 500px;
 				}
 			}
 			.tercer-row{
-				.col{
+				.primer-col{
 					.cuarto-row{
 					margin-bottom: 0;
 					margin-left: 25px;
 						.square{
+							@include squa();
+						}
+					}
+					.text-responsive{
+						h5{
+							@include titulo();
+						}
+						p{
+							@include lorem();
+						}
+					}
+				}
+				.segundo-col{
+					.cont-icon-azul{
+					margin-bottom: 0;
+					margin-left: 25px;
+						.square-blue{
+							@include squa();
+						}
+						.rectangle-blue{
 							height: 14px;
-							width: 19px;
+							width: 40px;
 							border-radius: 4px;
 							float: left;
 							margin: 2px;
@@ -88,16 +108,13 @@ height: 500px;
 					.text-responsive{
 						h5{
 							@include titulo();
-							margin-top: 50px;
 						}
 						p{
-							font-weight: 300;
-							font-size: medium;
-							width: 350px;
-							margin-left: 13px;
+							@include lorem();
 						}
 					}
 				}
+
 			}
 		}
 	}
