@@ -14,8 +14,7 @@
   #bienvenida .row .slider .slides li a {
     padding-top: 10px;
     margin-top: 50px;
-    height: 50px;
-    background-color: #e91e63; }
+    height: 50px; }
   #bienvenida .row .slider .slides li a:hover {
     box-shadow: 1px 10px 20px rgba(233, 30, 99, 0.5); }
 #bienvenida .row .slider .material-icons {
@@ -33,9 +32,9 @@
 
 #cont-mayor {
   height: 500px; }
-  #cont-mayor .row {
+  #cont-mayor .primer-row {
     margin-top: 550px; }
-    #cont-mayor .row #features {
+    #cont-mayor .primer-row #features {
       position: absolute;
       width: 95%;
       right: 2.5%;
@@ -43,5 +42,21 @@
       z-index: 10;
       border-radius: 5px 5px 0 0;
       box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2); }
+      #cont-mayor .primer-row #features .segundo-row {
+        margin: 80px 0; }
+        #cont-mayor .primer-row #features .segundo-row div h5 {
+          font-size: 129%;
+          line-height: 150%;
+          font-weight: 300; }
+      #cont-mayor .primer-row #features .tercer-row .col .cuarto-row {
+        margin-bottom: 0; }
+        #cont-mayor .primer-row #features .tercer-row .col .cuarto-row .square {
+          height: 14px;
+          width: 19px;
+          border-radius: 4px;
+          float: left;
+          margin: 2px; }
+      #cont-mayor .primer-row #features .tercer-row .col .text-responsive h5 {
+        font-family: 'Roboto Slab', serif; }
 
 /*# sourceMappingURL=main.css.map */
