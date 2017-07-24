@@ -137,6 +137,7 @@ height: 600px;
 }//section
 #about{
 	.primer-row-about{
+	margin-bottom: 0;
 		#who-are{
 		@include sect();
 		height:1000px;
@@ -169,3 +170,12 @@ height: 600px;
 		}//col
 	}//row
 }//section
+#products{
+	.primer-row-products{
+		.cont-products{
+		@include sect();
+		height: 500px;
+		
+		}
+	}
+}
