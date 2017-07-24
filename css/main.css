@@ -60,9 +60,9 @@
       #cont-mayor .primer-row #features .tercer-row .primer-col .text-responsive h5 {
         font-family: 'Roboto Slab', serif;
         color: #3c4858;
-        font-size: large;
         font-weight: 600;
-        margin-top: 50px; }
+        margin-top: 50px;
+        font-size: large; }
       #cont-mayor .primer-row #features .tercer-row .primer-col .text-responsive p {
         font-weight: 300;
         font-size: medium;
@@ -86,9 +86,9 @@
       #cont-mayor .primer-row #features .tercer-row .segundo-col .text-responsive h5 {
         font-family: 'Roboto Slab', serif;
         color: #3c4858;
-        font-size: large;
         font-weight: 600;
-        margin-top: 50px; }
+        margin-top: 50px;
+        font-size: large; }
       #cont-mayor .primer-row #features .tercer-row .segundo-col .text-responsive p {
         font-weight: 300;
         font-size: medium;
@@ -107,9 +107,9 @@
       #cont-mayor .primer-row #features .tercer-row .tercer-col .text-responsive h5 {
         font-family: 'Roboto Slab', serif;
         color: #3c4858;
-        font-size: large;
         font-weight: 600;
-        margin-top: 50px; }
+        margin-top: 50px;
+        font-size: large; }
       #cont-mayor .primer-row #features .tercer-row .tercer-col .text-responsive p {
         font-weight: 300;
         font-size: medium;
@@ -148,5 +148,26 @@
   z-index: 10;
   box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
   height: 500px; }
+  #products .primer-row-products .cont-products h4 {
+    font-family: 'Roboto Slab', serif;
+    color: #3c4858;
+    font-weight: 600;
+    margin-top: 50px;
+    margin: 35px 0;
+    padding-top: 40px; }
+  #products .primer-row-products .cont-products p {
+    line-height: 150%;
+    font-weight: 300;
+    font-size: 129%; }
+  #products .primer-row-products .cont-products .row .col .card-table {
+    border-radius: 6px; }
+    #products .primer-row-products .cont-products .row .col .card-table .card-image img {
+      border-radius: 6px;
+      position: relative;
+      left: 15px;
+      right: 0;
+      top: -26px;
+      bottom: 0;
+      width: 90%; }
 
 /*# sourceMappingURL=main.css.map */
