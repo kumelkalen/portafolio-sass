@@ -175,6 +175,7 @@ height: 600px;
 }//section
 #products{
 	.primer-row-products{
+	margin-bottom: 0;
 		.cont-products{
 		@include sect();
 		height: 950px;
@@ -238,6 +239,7 @@ height: 600px;
 }//section
 #portfolio{
 	.primer-row-portfolio{
+	margin-bottom: 0;
 		.cont-portfolio{
 		@include sect();
 			h4{
@@ -267,3 +269,34 @@ height: 600px;
 
 	}
 }//section
+#our-team{
+	.primer-row-team{
+	margin-bottom: 0;
+		.cont-team{
+		@include sect();
+			h4{
+				@include titulo();
+				margin: 35px 0;
+				padding-top: 40px;
+			}
+			p{
+				@include bajTitulo();
+			}
+			.row{
+				.col{
+					.row{
+						.m5{
+							img{
+								width: 95%;
+								border-radius: 5px;
+							}
+						}
+						.m6{
+
+						}
+					}
+				}
+			}
+		}
+	}
+}
