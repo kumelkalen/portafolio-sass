@@ -27,3 +27,9 @@
 	float: left;
 	margin: 2px;
 }
+@mixin bajTitulo(){
+	line-height: 150%;
+	font-weight: 300;
+	font-size: 129%;
+	margin-bottom: 80px;
+}

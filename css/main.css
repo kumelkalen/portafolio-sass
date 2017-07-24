@@ -192,4 +192,29 @@
         color: #3c4858;
         margin: 0; }
 
+#portfolio .primer-row-portfolio .cont-portfolio {
+  margin-left: 2.5%;
+  width: 95%;
+  z-index: 10;
+  box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2); }
+  #portfolio .primer-row-portfolio .cont-portfolio h4 {
+    font-family: 'Roboto Slab', serif;
+    color: #3c4858;
+    font-weight: 600;
+    margin-top: 50px;
+    margin: 35px 0;
+    padding-top: 40px; }
+  #portfolio .primer-row-portfolio .cont-portfolio p {
+    line-height: 150%;
+    font-weight: 300;
+    font-size: 129%;
+    margin-bottom: 80px; }
+  #portfolio .primer-row-portfolio .cont-portfolio .row .m4 img {
+    border-radius: 7px;
+    width: 90%; }
+  #portfolio .primer-row-portfolio .cont-portfolio .row .m6 img {
+    border-radius: 7px;
+    height: 275px;
+    width: 93%; }
+
 /*# sourceMappingURL=main.css.map */

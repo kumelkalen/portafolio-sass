@@ -184,10 +184,7 @@ height: 600px;
 				padding-top: 40px;
 			}
 			p{
-				line-height: 150%;
-				font-weight: 300;
-				font-size: 129%;
-				margin-bottom: 80px;
+				@include bajTitulo();
 			}
 			.row{
 				.col{
@@ -232,10 +229,41 @@ height: 600px;
 								color:$color_azul_raro;
 								margin: 0;
 							}
-						}
+						}//footer
+					}//card
+				}//col
+			}//row
+		}//col
+	}//row
+}//section
+#portfolio{
+	.primer-row-portfolio{
+		.cont-portfolio{
+		@include sect();
+			h4{
+				@include titulo();
+				margin: 35px 0;
+				padding-top: 40px;
+			}
+			p{
+				@include bajTitulo();
+			}
+			.row{
+				.m4{
+					img{
+						border-radius: 7px;
+						width: 90%;
+					}
+				}
+				.m6{
+					img{
+						border-radius: 7px;
+						height: 275px;
+						width: 93%;
 					}
 				}
 			}
 		}
+
 	}
-}
+}//section
