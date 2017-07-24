@@ -75,8 +75,7 @@ height: 500px;
 			.tercer-row{
 				.primer-col{
 					.cuarto-row{
-					margin-bottom: 0;
-					margin-left: 25px;
+					@include marg();
 						.square{
 							@include squa();
 						}
@@ -92,8 +91,7 @@ height: 500px;
 				}
 				.segundo-col{
 					.cont-icon-azul{
-					margin-bottom: 0;
-					margin-left: 25px;
+					@include marg();
 						.square-blue{
 							@include squa();
 						}
@@ -114,7 +112,28 @@ height: 500px;
 						}
 					}
 				}
-
+				.tercer-col{
+					.cont-icon-green{
+					@include marg();
+						.rectangle-green{
+							height: 10px;
+							width: 60px;
+							border-radius: 4px;
+							margin: 8px;
+						}
+						.ultimo-rect{
+							margin-bottom: 0;
+						}
+					}
+					.text-responsive{
+						h5{
+							@include titulo();
+						}
+						p{
+							@include lorem();
+						}
+					}
+				}
 			}
 		}
 	}

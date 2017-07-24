@@ -94,5 +94,26 @@
         font-size: medium;
         width: 350px;
         margin-left: 13px; }
+      #cont-mayor .primer-row #features .tercer-row .tercer-col .cont-icon-green {
+        margin-bottom: 0;
+        margin-left: 25px; }
+        #cont-mayor .primer-row #features .tercer-row .tercer-col .cont-icon-green .rectangle-green {
+          height: 10px;
+          width: 60px;
+          border-radius: 4px;
+          margin: 8px; }
+        #cont-mayor .primer-row #features .tercer-row .tercer-col .cont-icon-green .ultimo-rect {
+          margin-bottom: 0; }
+      #cont-mayor .primer-row #features .tercer-row .tercer-col .text-responsive h5 {
+        font-family: 'Roboto Slab', serif;
+        color: #3c4858;
+        font-size: large;
+        font-weight: 600;
+        margin-top: 50px; }
+      #cont-mayor .primer-row #features .tercer-row .tercer-col .text-responsive p {
+        font-weight: 300;
+        font-size: medium;
+        width: 350px;
+        margin-left: 13px; }
 
 /*# sourceMappingURL=main.css.map */
