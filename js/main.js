@@ -3,6 +3,6 @@ $(document).ready(function(){
 	$('.material-icons').click(function(event) {
 		$('.slider').slider('next');
 	});
- 
+	$('.parallax').parallax();
     
 });

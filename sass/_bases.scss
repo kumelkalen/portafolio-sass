@@ -55,13 +55,10 @@ height: 500px;
 	.primer-row{
 	margin-top: 550px;
 		#features{
-			position: absolute;
-			width: 95%;
-			right: 2.5%;
-			height: 500px;
-			z-index: 10;
-			border-radius: 5px 5px 0 0;
-			box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
+		position: absolute;
+		@include sect();
+		height: 550px;
+		border-radius: 5px 5px 0 0;
 			.segundo-row{
 			margin: 80px 0;
 				div{
@@ -111,7 +108,7 @@ height: 500px;
 							@include lorem();
 						}
 					}
-				}
+				}//col
 				.tercer-col{
 					.cont-icon-green{
 					@include marg();
@@ -133,8 +130,18 @@ height: 500px;
 							@include lorem();
 						}
 					}
-				}
-			}
+				}// tercer col
+			}// tercer row
+		}//col features
+	}//primer row
+}//section
+#about{
+	.primer-row-about{
+		#who-are{
+		@include sect();
+		height:500px;
+		/*-webkit-filter: grayscale(50%); 
+		filter: grayscale(50%);*/
 		}
 	}
 }
