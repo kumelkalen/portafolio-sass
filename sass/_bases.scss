@@ -177,7 +177,7 @@ height: 600px;
 	.primer-row-products{
 		.cont-products{
 		@include sect();
-		height: 500px;
+		height: 950px;
 			h4{
 				@include titulo();
 				margin: 35px 0;
@@ -187,17 +187,23 @@ height: 600px;
 				line-height: 150%;
 				font-weight: 300;
 				font-size: 129%;
+				margin-bottom: 80px;
 			}
 			.row{
 				.col{
 					.card-table{
 					border-radius: 6px;
+					height: 625px;
 						.card-image{
 							img{
 								border-radius: 6px;
 								position: relative;
 								top: -26px;
 								width: 90%;
+							}
+							img:hover{
+								top: -36px;
+								box-shadow: 0px 4px 20px 0px rgba(0,0,0,0.3);
 							}
 						}
 						.card-content{
@@ -216,6 +222,15 @@ height: 600px;
 								font-weight: 300;
 								margin-left: 30px;
 								font-size: 15px;
+								margin-bottom: 20px;
+							}
+						}
+						.footer-card{
+						display:flex;
+						justify-content: space-around;
+							p{
+								color:$color_azul_raro;
+								margin: 0;
 							}
 						}
 					}

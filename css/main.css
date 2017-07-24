@@ -147,7 +147,7 @@
   width: 95%;
   z-index: 10;
   box-shadow: 0px 0px 20px 3px rgba(0, 0, 0, 0.2);
-  height: 500px; }
+  height: 950px; }
   #products .primer-row-products .cont-products h4 {
     font-family: 'Roboto Slab', serif;
     color: #3c4858;
@@ -158,14 +158,19 @@
   #products .primer-row-products .cont-products p {
     line-height: 150%;
     font-weight: 300;
-    font-size: 129%; }
+    font-size: 129%;
+    margin-bottom: 80px; }
   #products .primer-row-products .cont-products .row .col .card-table {
-    border-radius: 6px; }
+    border-radius: 6px;
+    height: 625px; }
     #products .primer-row-products .cont-products .row .col .card-table .card-image img {
       border-radius: 6px;
       position: relative;
       top: -26px;
       width: 90%; }
+    #products .primer-row-products .cont-products .row .col .card-table .card-image img:hover {
+      top: -36px;
+      box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3); }
     #products .primer-row-products .cont-products .row .col .card-table .card-content .product-type {
       margin: 0;
       font-size: small;
@@ -178,6 +183,13 @@
       width: 215px;
       font-weight: 300;
       margin-left: 30px;
-      font-size: 15px; }
+      font-size: 15px;
+      margin-bottom: 20px; }
+    #products .primer-row-products .cont-products .row .col .card-table .footer-card {
+      display: flex;
+      justify-content: space-around; }
+      #products .primer-row-products .cont-products .row .col .card-table .footer-card p {
+        color: #3c4858;
+        margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
